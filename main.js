@@ -56,7 +56,7 @@ javascript
    3. SMOOTH SCROLL — âncoras internas
    ===================================================== */
 (function initSmoothScroll() {
-  const OFFSET_HEADER = 80; // altura do header fixo em px
+  const OFFSET_HEADER = 20; // pequena margem de respiro
 
   document.querySelectorAll('a[href^="#"]').forEach(link => {
     link.addEventListener('click', e => {

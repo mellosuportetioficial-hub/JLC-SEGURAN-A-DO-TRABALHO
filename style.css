@@ -141,10 +141,7 @@ ul {
 
 /* ---------- HEADER ---------- */
 #header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  position: relative;
   z-index: 100;
   background: var(--cor-primaria);
   box-shadow: var(--sombra-sm);
@@ -155,18 +152,21 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 72px;
+  height: 80px;
 }
 
-/* Logo: sem círculo, sem border-radius, sem borda */
+/* Logo: grande, sem fundo, sem borda */
 .logo-img {
-  height: 48px;
+  height: 68px;
   width: auto;
   border-radius: 0;
   object-fit: contain;
   border: none;
   background: transparent;
   display: block;
+  /* Remove fundo preto da imagem usando mix-blend-mode */
+  mix-blend-mode: screen;
+  filter: brightness(1.1) contrast(1.05);
 }
 
 /* NAV */
@@ -263,7 +263,7 @@ ul {
     linear-gradient(135deg, rgba(26,58,92,0.92) 0%, rgba(46,109,164,0.78) 100%),
     url('https://static.wixstatic.com/media/21be00_119f1ef6e9b24662a6f0a42ce51c5c36~mv2.jpeg/v1/fit/w_2500,h_1330,al_c/21be00_119f1ef6e9b24662a6f0a42ce51c5c36~mv2.jpeg')
     center/cover no-repeat;
-  padding-top: 72px;
+  padding-top: 0;
   overflow: hidden;
 }
 
@@ -741,13 +741,14 @@ ul {
 
 /* Footer logo: sem círculo, sem borda */
 .footer-logo {
-  height: 56px;
+  height: 64px;
   width: auto;
   border-radius: 0;
   object-fit: contain;
   border: none;
   background: transparent;
-  filter: brightness(0.95);
+  mix-blend-mode: screen;
+  filter: brightness(1.1) contrast(1.05);
 }
 
 .footer-tagline {
@@ -796,7 +797,7 @@ ul {
 
   .nav {
     position: fixed;
-    top: 72px;
+    top: 80px;
     left: 0;
     right: 0;
     background: var(--cor-primaria);
