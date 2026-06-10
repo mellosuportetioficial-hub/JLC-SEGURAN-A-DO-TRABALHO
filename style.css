@@ -152,21 +152,20 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
+  height: 100px;
 }
 
 /* Logo: grande, sem fundo, sem borda */
 .logo-img {
-  height: 68px;
+  height: 90px;
   width: auto;
+  max-width: 260px;
   border-radius: 0;
   object-fit: contain;
   border: none;
   background: transparent;
   display: block;
-  /* Remove fundo preto da imagem usando mix-blend-mode */
-  mix-blend-mode: screen;
-  filter: brightness(1.1) contrast(1.05);
+  filter: brightness(1.08) contrast(1.05);
 }
 
 /* NAV */
@@ -741,14 +740,13 @@ ul {
 
 /* Footer logo: sem círculo, sem borda */
 .footer-logo {
-  height: 64px;
+  height: 72px;
   width: auto;
   border-radius: 0;
   object-fit: contain;
   border: none;
   background: transparent;
-  mix-blend-mode: screen;
-  filter: brightness(1.1) contrast(1.05);
+  filter: brightness(1.08) contrast(1.05);
 }
 
 .footer-tagline {
@@ -797,7 +795,7 @@ ul {
 
   .nav {
     position: fixed;
-    top: 80px;
+    top: 100px;
     left: 0;
     right: 0;
     background: var(--cor-primaria);
