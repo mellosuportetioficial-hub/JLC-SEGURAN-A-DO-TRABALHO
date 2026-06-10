@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="JLC Assessoria e Consultoria – Segurança do Trabalho e Meio Ambiente. Planejamos, desenvolvemos e implantamos sistemas de gestão para sua empresa." />
+  <title>JLC | Segurança do Trabalho e Meio Ambiente</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header id="header">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo-link">
+        <img
+          src="imagens/logojlc.png"
+          alt="JLC Assessoria e Consultoria"
+          class="logo-img"
+        />
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="mainNav">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link">Página Inicial</a></li>
+          <li class="has-dropdown">
+            <a href="#servicos" class="nav-link">Serviços ▾</a>
+            <ul class="dropdown">
+              <li><a href="#nossos-trabalhos">Nossos Trabalhos</a></li>
+              <li><a href="#cuidados">Cuidado com Acidentes</a></li>
+              <li><a href="#documentos">Documentos Legais</a></li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="#sobre" class="nav-link">Sobre ▾</a>
+            <ul class="dropdown">
+              <li><a href="#filantropia">Filantropia</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+            </ul>
+          </li>
+          <li><a href="#parceiros" class="nav-link">Parceiros</a></li>
+          <li><a href="#cursos" class="nav-link">Cursos e Treinamentos</a></li>
+          <li><a href="#trabalhe" class="nav-link">Trabalhe Conosco</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+          <li><a href="#blog" class="nav-link">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <!-- Imagem de apoio decorativa -->
+    <div class="hero-deco" aria-hidden="true">
+      <img src="imagens/imagem_de_apoio.webp" alt="" />
+    </div>
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Segurança do Trabalho e Meio Ambiente</p>
+        <h1 class="hero-title">Protegemos sua empresa.<br/>Cuidamos de pessoas.</h1>
+        <p class="hero-sub">Com a JLC você encontra tudo o que precisa para cumprir as normas e legislações em vigência — com foco no bem‑estar dos seus funcionários.</p>
+        <div class="hero-cta">
+          <a href="#servicos" class="btn btn-primary">Nossos Serviços</a>
+          <a href="#contato" class="btn btn-outline">Fale Conosco</a>
+        </div>
+      </div>
+      <!-- Stats bar alinhado igual exemplo -->
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num">+10</span>
+          <span class="stat-label">Anos de experiência</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">+200</span>
+          <span class="stat-label">Empresas atendidas</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Conformidade legal</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <svg width="20" height="30" viewBox="0 0 20 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="1" y="1" width="18" height="28" rx="9" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+        <circle cx="10" cy="8" r="3" fill="rgba(255,255,255,0.5)">
+          <animateTransform attributeName="transform" type="translate" values="0,0;0,10;0,0" dur="1.8s" repeatCount="indefinite"/>
+        </circle>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== DIFERENCIAIS ===== -->
+  <section class="diferenciais" id="diferenciais">
+    <div class="container">
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">
+            <!-- Shield SVG -->
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 4L6 10V22C6 29.7 12.2 36.9 20 38C27.8 36.9 34 29.7 34 22V10L20 4Z" fill="#1a3a5c" stroke="#e8a020" stroke-width="1.5"/>
+              <path d="M14 20L18 24L26 16" stroke="#e8a020" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Planejamento</h3>
+          <p>Analisamos os riscos da sua empresa e elaboramos um plano completo de gestão.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <!-- Gear SVG -->
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="5" stroke="#e8a020" stroke-width="2.5"/>
+              <path d="M20 4v4M20 32v4M4 20h4M32 20h4M7.51 7.51l2.83 2.83M29.66 29.66l2.83 2.83M7.51 32.49l2.83-2.83M29.66 10.34l2.83-2.83" stroke="#e8a020" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="20" cy="20" r="9" stroke="#1a3a5c" stroke-width="1.5" stroke-dasharray="3 3"/>
+            </svg>
+          </div>
+          <h3>Implantação</h3>
+          <p>Colocamos em prática todas as medidas e sistemas de segurança necessários.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <!-- Chart SVG -->
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="5" y="22" width="7" height="13" rx="1.5" fill="#1a3a5c"/>
+              <rect x="16.5" y="15" width="7" height="20" rx="1.5" fill="#2e6da4"/>
+              <rect x="28" y="8" width="7" height="27" rx="1.5" fill="#e8a020"/>
+              <path d="M5 8L16.5 14L28 6" stroke="#e8a020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Indicadores</h3>
+          <p>Geramos relatórios e indicadores para acompanhar a evolução da segurança.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <!-- Leaf SVG -->
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 6C20 6 8 12 8 24C8 30.6 13.4 36 20 36C26.6 36 32 30.6 32 24C32 12 20 6 20 6Z" fill="#1a3a5c" stroke="#e8a020" stroke-width="1.5"/>
+              <path d="M20 36V20" stroke="#e8a020" stroke-width="2" stroke-linecap="round"/>
+              <path d="M20 26C20 26 14 22 12 16" stroke="#e8a020" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M20 22C20 22 26 18 28 12" stroke="#e8a020" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Meio Ambiente</h3>
+          <p>Desenvolvemos programas de gestão ambiental alinhados à legislação vigente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVIÇOS ===== -->
+  <section class="servicos section-alt" id="servicos">
+    <div class="container">
+      <span class="section-label">O que fazemos</span>
+      <h2 class="section-title">Nossas Normas e Serviços</h2>
+      <p class="section-desc">Atuamos com as principais Normas Regulamentadoras para garantir conformidade total na sua empresa.</p>
+
+      <div class="normas-grid">
+        <div class="norma-card">
+          <img src="https://static.wixstatic.com/media/21be00_6ea7e5cec5a745b78ae2d4da2850cc9a~mv2.jpg/v1/fill/w_310,h_177,al_c,q_80/NR1_______edited.jpg" alt="NR1 – Disposições Gerais" loading="lazy" />
+          <div class="norma-body">
+            <h3>NR‑1</h3>
+            <p>Disposições Gerais e Gerenciamento de Riscos Ocupacionais</p>
+          </div>
+        </div>
+        <div class="norma-card">
+          <img src="https://static.wixstatic.com/media/21be00_81ea6ebc0eea4ac4ae245cadb30aa8b6~mv2.jpg/v1/fill/w_310,h_167,al_c,q_80/NR17%20ERGONOMIA_edited.jpg" alt="NR17 – Ergonomia" loading="lazy" />
+          <div class="norma-body">
+            <h3>NR‑17</h3>
+            <p>Ergonomia — adequação do trabalho às características psicofisiológicas dos trabalhadores</p>
+          </div>
+        </div>
+        <div class="norma-card">
+          <img src="https://static.wixstatic.com/media/21be00_d14f7cc2d94e41cd86e8e62da7aa007a~mv2.jpg/v1/fill/w_305,h_177,al_c,q_80/NR23_edited.jpg" alt="NR23 – Proteção Contra Incêndios" loading="lazy" />
+          <div class="norma-body">
+            <h3>NR‑23</h3>
+            <p>Proteção Contra Incêndios — planos e equipamentos de combate e emergência</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="servicos-mais">
+        <a href="https://www.jlcassessoriaeconsultoria.com.br/pagina2" class="btn btn-primary" target="_blank" rel="noopener">Mais Serviços →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SIMULADO / DESTAQUE ===== -->
+  <section class="destaque" id="nossos-trabalhos">
+    <div class="container destaque-inner">
+      <div class="destaque-img">
+        <img src="https://static.wixstatic.com/media/21be00_247ee2a9ab7b4991b070895d2329f841~mv2.jpeg/v1/fill/w_527,h_235,al_c/WhatsApp%20Image%202023-10-26%20at%2020_18_06.jpeg" alt="Simulado de Abandono – Escola Técnica ETM" loading="lazy" />
+      </div>
+      <div class="destaque-texto">
+        <span class="section-label">Caso Real</span>
+        <h2>Simulado de Abandono</h2>
+        <p>Realizamos um simulado completo de abandono de emergência na Escola Técnica ETM, garantindo que todos os colaboradores e alunos soubessem como agir em situações de risco.</p>
+        <a href="https://fb.watch/nD1OeIYUZs/?mibextid=Q6S0fb" class="btn btn-primary" target="_blank" rel="noopener">Ver Vídeo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EPI / LOJA ===== -->
+  <section class="epi section-alt" id="epi">
+    <div class="container epi-inner">
+      <div class="epi-texto">
+        <span class="section-label">Equipamentos</span>
+        <h2>Linha Completa em EPIs</h2>
+        <p>Encontre todos os equipamentos de proteção individual necessários para sua empresa em nossa loja parceira.</p>
+        <a href="https://lojajlc.mercadoshops.com.br/" class="btn btn-primary" target="_blank" rel="noopener">Acessar Loja</a>
+      </div>
+      <div class="epi-visual" aria-hidden="true">
+        <!-- Hard hat SVG decorative -->
+        <svg class="epi-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="100" cy="100" r="90" fill="rgba(232,160,32,0.10)" stroke="rgba(232,160,32,0.25)" stroke-width="1.5"/>
+          <circle cx="100" cy="100" r="70" fill="rgba(232,160,32,0.08)" stroke="rgba(232,160,32,0.18)" stroke-width="1"/>
+          <!-- Helmet shape -->
+          <path d="M55 120 C55 85 75 58 100 55 C125 58 145 85 145 120Z" fill="#e8a020"/>
+          <path d="M55 120 C55 85 75 58 100 55 C125 58 145 85 145 120Z" fill="url(#helmetGrad)"/>
+          <rect x="48" y="118" width="104" height="12" rx="6" fill="#c98a10"/>
+          <line x1="100" y1="55" x2="100" y2="120" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+          <defs>
+            <linearGradient id="helmetGrad" x1="55" y1="80" x2="145" y2="120" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="rgba(255,255,255,0.25)"/>
+              <stop offset="100%" stop-color="rgba(0,0,0,0.1)"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DEPOIMENTO ===== -->
+  <section class="depoimento" id="depoimento">
+    <div class="container">
+      <span class="section-label">Depoimento</span>
+      <blockquote class="quote">
+        <!-- Quote mark SVG -->
+        <svg class="quote-mark" width="48" height="36" viewBox="0 0 48 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M0 36V22.5C0 10.5 6.5 3 19.5 0L22 5C15.5 7 12 11.5 12 18H20V36H0ZM26 36V22.5C26 10.5 32.5 3 45.5 0L48 5C41.5 7 38 11.5 38 18H46V36H26Z" fill="#e8a020" opacity="0.5"/>
+        </svg>
+        <p>"Priorizamos o trabalho feito com paixão e orgulho, oferecendo alta qualidade de serviços para todos."</p>
+        <footer>— João Silva, São Paulo, SP</footer>
+      </blockquote>
+      <img src="https://static.wixstatic.com/media/21be00_a691af7c9be249ffbe342e895e10af7a~mv2.jpeg/v1/fill/w_415,h_190,al_c,q_80/WhatsApp%20Image%202023-08-18%20at%2021_58_34.jpeg" alt="Trabalho JLC em campo" class="depoimento-img" loading="lazy" />
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section class="contato" id="contato">
+    <div class="container contato-inner">
+      <div>
+        <span class="section-label">Entre em Contato</span>
+        <h2>Fale com a JLC</h2>
+        <p>Estamos prontos para ajudar sua empresa a estar em conformidade com todas as normas de segurança e meio ambiente.</p>
+        <ul class="contato-lista">
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#e8a020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13 19.79 19.79 0 0 1 1.61 4.38 2 2 0 0 1 3.58 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+5511985735092">(11) 9 8573‑5092</a>
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#e8a020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            São Paulo – SP
+          </li>
+        </ul>
+        <div class="social-links">
+          <a href="https://www.instagram.com/reel/Chk7lkJrVbH/" target="_blank" rel="noopener" aria-label="Instagram" class="social-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            Instagram
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61552095875785" target="_blank" rel="noopener" aria-label="Facebook" class="social-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            Facebook
+          </a>
+          <a href="https://wa.me/5511985735092" target="_blank" rel="noopener" aria-label="WhatsApp" class="social-btn social-btn--wa">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+      <form class="contato-form" id="contatoForm" novalidate>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required />
+
+        <label for="email">E‑mail</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Como podemos ajudar?" required></textarea>
+
+        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+        <p class="form-feedback" id="formFeedback"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <img
+        src="imagens/logojlc.png"
+        alt="JLC Assessoria e Consultoria"
+        class="footer-logo"
+      />
+      <p class="footer-tagline">Segurança do Trabalho e Meio Ambiente</p>
+      <p class="footer-copy">© <span id="anoAtual"></span> JLC Assessoria e Consultoria. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
