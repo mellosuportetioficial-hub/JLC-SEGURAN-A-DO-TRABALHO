@@ -152,20 +152,24 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
+  height: 110px;
+  padding-block: 10px;
 }
 
-/* Logo: grande, sem fundo, sem borda */
+/* Logo grande, sem fundo, sem borda */
 .logo-img {
-  height: 90px;
+  height: 120px;
   width: auto;
-  max-width: 260px;
-  border-radius: 0;
+  max-width: 100%;
   object-fit: contain;
-  border: none;
-  background: transparent;
   display: block;
-  filter: brightness(1.08) contrast(1.05);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 130px;
 }
 
 /* NAV */
